@@ -50,8 +50,4 @@ Este é um app mobile feito com **React Native** usando **Expo**, que consome um
 
 Feito com 💙 por [Gustavo Lopes](https://github.com/GustavoLopesDev) como parte dos estudos com React Native.
 
----
 
-## 📝 Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
