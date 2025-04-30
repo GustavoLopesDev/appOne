@@ -1,4 +1,4 @@
-# 🎬 App One
+# 🎬 App Filmes
 
 Este é um app mobile feito com **React Native** usando **Expo**, que consome uma API de filmes e exibe **nome**, **imagem** e **sinopse** de cada um. O projeto foi desenvolvido como prática do curso [Sujeito Programador](https://sujeitoprogramador.com/), com foco em consumo de API utilizando **Axios**.
 
