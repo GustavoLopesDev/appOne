@@ -15,16 +15,6 @@ Este é um app mobile feito com **React Native** usando **Expo**, que consome um
 
 ---
 
-## 📱 Prints do app
-
-> *(Adicione prints reais aqui depois)*
-
-| Home (lista de filmes) | Detalhes do filme |
-|------------------------|-------------------|
-| ![Home](./assets/print-home.png) | ![Detalhes](./assets/print-detalhes.png) |
-
----
-
 ## ⚙️ Como rodar o projeto
 
 1. Clone o repositório:
