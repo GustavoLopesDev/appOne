@@ -1,97 +1,67 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 🎬 App One
 
-# Getting Started
+Este é um app mobile feito com **React Native** usando **Expo**, que consome uma API de filmes e exibe **nome**, **imagem** e **sinopse** de cada um. O projeto foi desenvolvido como prática do curso [Sujeito Programador](https://sujeitoprogramador.com/), com foco em consumo de API utilizando **Axios**.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+---
 
-## Step 1: Start Metro
+## 🚀 Tecnologias utilizadas
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+<div style="display: flex; gap: 10px;">
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" />
+  <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+</div>
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+---
 
-```sh
-# Using npm
-npm start
+## 📱 Prints do app
 
-# OR using Yarn
-yarn start
-```
+> *(Adicione prints reais aqui depois)*
 
-## Step 2: Build and run your app
+| Home (lista de filmes) | Detalhes do filme |
+|------------------------|-------------------|
+| ![Home](./assets/print-home.png) | ![Detalhes](./assets/print-detalhes.png) |
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+---
 
-### Android
+## ⚙️ Como rodar o projeto
 
-```sh
-# Using npm
-npm run android
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/GustavoLopesDev/appOne.git
+   cd appOne
+   ```
 
-# OR using Yarn
-yarn android
-```
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
 
-### iOS
+3. Inicie o app com o Expo:
+   ```bash
+   npx expo start
+   ```
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+4. Use o app no simulador, emulador ou escaneando o QR code pelo app **Expo Go** no celular.
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+---
 
-```sh
-bundle install
-```
+## 💡 Funcionalidades
 
-Then, and every time you update your native dependencies, run:
+- Listagem de filmes via API
+- Visualização de imagem, título e sinopse
+- Navegação entre telas
+- Consumo de dados com Axios
 
-```sh
-bundle exec pod install
-```
+---
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+## 👨‍💻 Autor
 
-```sh
-# Using npm
-npm run ios
+Feito com 💙 por [Gustavo Lopes](https://github.com/GustavoLopesDev) como parte dos estudos com React Native.
 
-# OR using Yarn
-yarn ios
-```
+---
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+## 📝 Licença
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
