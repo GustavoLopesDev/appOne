@@ -14,7 +14,19 @@ Este é um app mobile feito com **React Native** usando **Expo**, que consome um
 </div>
 
 ---
+## 📦 Bibliotecas Utilizadas
 
+- [react](https://reactjs.org/) – Biblioteca principal para construção da interface.
+- [react-native](https://reactnative.dev/) – Framework para desenvolvimento de aplicativos móveis.
+- [react-native-svg](https://github.com/react-native-svg/react-native-svg) – Suporte para SVGs no React Native.
+- [axios](https://axios-http.com/) – Cliente HTTP para realizar requisições à API.
+- [react-navigation](https://reactnavigation.org/) – Biblioteca de navegação para React Native.
+- [redux](https://redux.js.org/) – Gerenciador de estado previsível para aplicações JavaScript.
+- [react-redux](https://react-redux.js.org/) – Ligação oficial do Redux para o React.
+- [redux-thunk](https://github.com/reduxjs/redux-thunk) – Middleware para escrever ações assíncronas no Redux.
+- [prop-types](https://github.com/facebook/prop-types) – Verificação de tipos de props em componentes React.
+
+---
 ## ⚙️ Como rodar o projeto
 
 1. Clone o repositório:
