@@ -1,6 +1,6 @@
 # 🎬 App Filmes
 
-Este é um app mobile feito com **React Native** usando **Expo**, que consome uma API de filmes e exibe **nome**, **imagem** e **sinopse** de cada um. O projeto foi desenvolvido como prática do curso [Sujeito Programador](https://sujeitoprogramador.com/), com foco em consumo de API utilizando **Axios**.
+Este é um app mobile feito com **React Native** puro, que consome uma API de filmes e exibe **nome**, **imagem** e **sinopse** de cada um. O projeto foi desenvolvido como prática do curso [Sujeito Programador](https://sujeitoprogramador.com/), com foco em consumo de API utilizando **Axios**.
 
 ---
 
@@ -8,44 +8,56 @@ Este é um app mobile feito com **React Native** usando **Expo**, que consome um
 
 <div style="display: flex; gap: 10px;">
   <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" />
   <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 </div>
 
 ---
+
 ## 📦 Bibliotecas Utilizadas
 
-- [react](https://reactjs.org/) – Biblioteca principal para construção da interface.
-- [react-native](https://reactnative.dev/) – Framework para desenvolvimento de aplicativos móveis.
-- [react-native-svg](https://github.com/react-native-svg/react-native-svg) – Suporte para SVGs no React Native.
-- [axios](https://axios-http.com/) – Cliente HTTP para realizar requisições à API.
-- [react-navigation](https://reactnavigation.org/) – Biblioteca de navegação para React Native.
-- [redux](https://redux.js.org/) – Gerenciador de estado previsível para aplicações JavaScript.
-- [react-redux](https://react-redux.js.org/) – Ligação oficial do Redux para o React.
-- [redux-thunk](https://github.com/reduxjs/redux-thunk) – Middleware para escrever ações assíncronas no Redux.
-- [prop-types](https://github.com/facebook/prop-types) – Verificação de tipos de props em componentes React.
+- [react](https://reactjs.org/)
+- [react-native](https://reactnative.dev/)
+- [axios](https://axios-http.com/)
 
 ---
-## ⚙️ Como rodar o projeto
+
+## ⚙️ Pré-requisitos
+
+Antes de rodar o projeto, certifique-se de ter instalado:
+
+- **Node.js** (versão 18.x ou superior) → [Download](https://nodejs.org/)
+- **Git** → [Download](https://git-scm.com/)
+- **Android Studio** (com ambiente de emulador configurado)
+- **Java Development Kit (JDK)** 11 ou superior
+- **Caminho do Android SDK** configurado no ambiente
+
+---
+
+## ▶️ Como rodar o projeto localmente
 
 1. Clone o repositório:
-   ```bash
+   ```
    git clone https://github.com/GustavoLopesDev/appOne.git
    cd appOne
    ```
 
 2. Instale as dependências:
-   ```bash
+   ```
    npm install
    ```
 
-3. Inicie o app com o Expo:
-   ```bash
-   npx expo start
+3. Inicie o Metro Bundler:
+   ```
+   npm start
    ```
 
-4. Use o app no simulador, emulador ou escaneando o QR code pelo app **Expo Go** no celular.
+4. Em outro terminal, rode o app no emulador Android:
+   ```
+   npm run android
+   ```
+
+> **Obs**: Certifique-se de que o emulador esteja aberto ou um dispositivo esteja conectado via USB com a depuração USB ativada.
 
 ---
 
@@ -53,7 +65,7 @@ Este é um app mobile feito com **React Native** usando **Expo**, que consome um
 
 - Listagem de filmes via API
 - Visualização de imagem, título e sinopse
-- Navegação entre telas
+- Navegação entre telas (se implementado)
 - Consumo de dados com Axios
 
 ---
@@ -61,5 +73,3 @@ Este é um app mobile feito com **React Native** usando **Expo**, que consome um
 ## 👨‍💻 Autor
 
 Feito com 💙 por [Gustavo Lopes](https://github.com/GustavoLopesDev) como parte dos estudos com React Native.
-
-
